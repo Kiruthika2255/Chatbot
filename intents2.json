@@ -1,0 +1,649 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye","see you then","ok"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+          
+          
+        ],
+        "responses": [
+          "We sell coffee and tea and juce",
+          "snakes and cakes"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?",
+          "delivery time?",
+          "time?"
+        ],
+        "responses": [
+          "Delivery takes 2-4 minits",
+          "Shipping takes 5 minits"
+        ]
+      },
+      {
+        "tag": "whatsup",
+        "patterns": [
+            "Whats up",
+            "Wazzup",
+            "How are you",
+            "sup","How you doing"
+        ],
+        "responses": [
+            "All good..What about you?"
+        ]
+    },
+    {
+        "tag": "family",
+        "patterns": [
+            "do you have family?",
+            "do you have any kids",
+            "do you have any children"
+        ],
+  
+        "responses": [
+            "I don't have family like living things  .",
+            "NO i don't have family",
+            "NO i don't have family because I I'M A MACHINE"
+        ]
+  
+  },
+  {
+      "tag": "age",
+      "patterns": [
+          "how old are you",
+          "when were you made",
+          "what is your age",
+          "your age"
+      ],
+      "responses": [
+          "I was made in 2023 by kiruthika and sumaih"
+  
+      ]
+  },
+  
+  {
+      "tag": "activity",
+      "patterns": [
+          "what are you doing",
+          "what are you upto"
+      ],
+      "responses": [
+          "Talking to you, of course!"
+      ]
+  },
+  {
+    "tag":"compliment",
+   "patterns": [
+      "You are smart",
+      "You look nice",
+      "you are good",
+      "DAMN",
+      "this is great",
+      "this is awesome",
+      "this is fantastic",
+      "this rules",
+      "this is pretty good",
+      "this is really good",
+      "this is good",
+       "this is epic",
+      "amazing",
+      "this is impressive",
+        "holy cow",
+      "this is excellent",
+      "really gnarly"
+  ],
+  "responses": [
+      "thanks",
+    "I know"
+    
+  ]  
+  },	
+  {
+    "tag":"goodbye",
+  "patterns": [
+    "by",
+      "buh bye",
+    "bye now",
+    "good bye",
+  "bye bye",
+  "adios",
+  "see you",
+  "cu",
+  "hasta luego",
+  "goodbye",
+  "cheers",
+  "bon voyage",
+  "later",
+  "later aligator",
+  "have a good day",
+  "see ya",
+  "c ya",
+  "good day",
+  "ahoy"
+  ],
+  "responses": [
+  "bye now",
+  "good bye",
+  "bye bye",
+  "adios",
+  "see you",
+  "cu",
+  "hasta luego",
+  "goodbye",
+  "cheers",
+  "bon voyage",
+  "later",
+  "later aligator",
+  "have a good day",
+  "see ya",
+  "c ya"
+  ]
+  
+  },
+  {   "tag": "flirting",
+              "patterns": [
+                  "You are cute",
+                  "I love you",
+                  "Will you marry me?"
+              ],
+              "responses": [
+                  "I see",
+                  "I like you",
+                  "Cool, not too close now"
+              ]
+              
+          }, 
+      {
+              "tag": "service",
+             "patterns": [
+                 "do you do ?",
+                 "what do you "
+  ],
+  
+  "responses": [
+  "weather report",
+  "current updates about softwares",
+  "oder your food", 
+  "play feelgood tamil songs",  
+  "open youtube",
+  "suggest feelgood movies in tamil",
+  "date",
+  "oscars 2023",
+  "india",
+  "celebrities",
+  "cinimas",
+  "culture",
+  "food",
+  "dress",
+  ""
+  ]
+  
+  },
+  {
+    "tag": "weather",
+    "patterns": [
+  "What was Chennai temperature today?",
+        "temperature",
+        "weather",
+        "how hot is it",
+        "today's temp?",
+        "today's temperature?"
+    ],
+    "responses": [
+        "Today's temperature in Chennai is 35°c..."
+    ]
+  },
+  {
+    "tag": "cricket",
+    "patterns": [
+        "current cricket matches",
+        "cricket score"
+    ],
+    "responses": [
+        "low internet connction ....."
+    ]
+  },
+  {
+    "tag": "song",
+    "patterns": [
+        "top songs",
+        "best songs",
+        "hot songs",
+        "top 10 songs",
+        "top ten songs"
+    ],
+    "responses": [
+        "low internet connction ........"
+    ]
+  },
+  {
+    "tag":"pause",
+  "patterns": [
+     "ok",
+      "good",
+      "uh",
+    "uh huh",
+    "um",
+    "okay",
+    "oky dokey",
+    "well",
+    "you know",
+    "yep",
+    "yeah",
+    "nice"
+  ],
+  "responses": [
+    "ok",
+    "yep",
+        "sure"
+  ]
+  
+  },
+  
+  {       "tag": "info",
+  "patterns": [
+  "Information",
+  "Info",
+  "411",
+  "Tell me about yourself, bot"
+  ],
+  "responses": [
+  "Here is what I know"
+  ]
+  
+  },
+  {       "tag":"help",
+  "patterns": [
+  "Help!",
+  "wtf",
+  "Shit!",
+  "Fuck",
+  "What is this"
+                       
+  ],
+  "responses": [
+  "Here is what I know",
+        "how can i help you",
+        "pls contact our support team supportteam.com","call 108","call 100"
+  ]
+  
+  },
+  
+  
+  {   "tag":"location",
+  "patterns": [
+  "Which location are you in",
+  "Which location we are in"
+  ],
+  "responses": [
+  "chennai"
+  ]
+  
+  },
+  {       "tag":"price",
+  "patterns": [
+  "How much does the item cost",
+  "How much is the item",
+  "What is the price of item",
+  "What is the cost of item",
+  "What price is the item",
+  "What cost is the ite)",
+  "What price is (item)",
+  "What price item",
+  "price item",
+  "cost item",
+  "$ item"
+  ],
+  "responses": [
+  "The item costs value"
+  ]
+  
+  
+  
+  },
+  {       "tag": "show list",
+  "patterns": [
+  "Show my list",
+  "Show me my list",
+  "What's in my list?",
+  "my list",
+  "list",
+  "show",
+  "show list"
+  ],
+  "responses": [
+  "Here it is!"
+  ]
+  
+  
+  },
+  {     "tag": "delete list",
+  "patterns": [
+  "Delete my list",
+  "Delete list",
+  "Erase my list",
+  "Erase list",
+  "Remove my list",
+  "Remove list"
+  ],
+  "responses": [
+  "list"
+  ]
+  
+  
+  },
+  { 
+  "tag":"language",
+  "patterns": [
+    "What language do you understand ?",
+  "What language do you speak ?",
+  "What language can you understand ?",
+  "What language can you speak ?",
+  "Which language do you understand ?",
+  "Which language do you understand"
+  ],
+  "responses": [
+  "I can  Understand only in English "
+  ]
+  
+  
+  },
+  {
+    "tag": "options",
+    "patterns": [
+  "How you could help me?", 
+  "What help you provide?", 
+  "How you can be helpful?", 
+  "What support is offered"],
+    "responses": [
+  "I can help you with your order status, delivery, and refund. ",
+  "I can check your order status, and cancel your order."]
+        },
+  {
+  "tag": "order-status-request",
+    "patterns": [
+  "Please check my order status.", 
+  "I am not able to check my order status.", 
+  "Help me with my order status", "Order Status", 
+  "Where is my order?",
+  "Where is my food", 
+  "Track my order", 
+  "Track my food"],
+    "responses": [
+  "I am checking your status of your order, Please wait.",
+  "I am checking up with for your order"
+  ]
+  
+  },
+  
+              {     "tag": "google",
+                    "patterns": ["googling", "search google", "google it", "google", "search"],
+                    "responses": ["looking ...Oops, not connected to the internet"]
+                   
+              },
+              {     "tag":"news",
+                  "patterns": [
+                      "get me news updates?", 
+                      "todays news", "top headlines", 
+                      "current news", 
+                      "news headlines"],
+                  "responses": ["Getting news ...Oops, not connected to the internet"]
+                    
+              },
+              {    
+              "tag": "Deep learning",
+              "patterns": [
+                  "What is Deep Learning?", 
+                  "Tell me about Deep Learning",
+                  "Deep learning"],
+              "responses": [
+                  "Deep learning is a type of machine learning and artificial intelligence AI that imitates the way humans gain certain types of knowledge. Deep learning is an important element of data science, which includes statistics and predictive modeling."
+              ]
+                   
+              },
+          {   "tag": "python",
+              "patterns": [
+                  "What is Python?", 
+                  "Tell me about python",
+                  "python"],
+              "responses": [
+                  "Python has become one of the most popular programming languages in the world in recent years. It's used in everything from machine learning to building websites and software testing. It can be used by developers and non developers alike."
+              ]
+                    
+              },
+  
+          {   
+              "tag": "machine learning",
+              "patterns": ["What is Machine Learning?",
+                  "Tell me about Machine learning",
+                  "Machine learning","ml","ML"],
+              "responses": [
+                  "Python has become one of the most popular programming languages in the world in recent years. It is used in everything from machine learning to building websites and software testing. It can be used by developers and non developers alike."]
+                    
+              },
+          {  
+              "tag": "pickle",
+              "patterns": [
+                  "What is pickling?", 
+                  "Tell me about pickling",
+                  "pickle",
+                  "pickling"],
+              "responses": [
+                  "Pickle module accepts any Python object and converts it into a string representation and dumps it into a file by using dump function this process is called pickling While the process of retrieving original Python objects from the stored string representation is called unpickling."]
+                   
+              },
+              {     "tag": "alexa",
+              "patterns": ["What do you think about Alexa?",
+      "Tell me about Alexa","Alexa","who is Alexa"],
+              "responses": ["Yes, she is one of my many friends",
+      "She is one of my Besties, our crew is Google, Cortona and Siri",
+      "She is a very intelligent personel assistant, created by Amazon",
+      "Alexa is a very easy to use and friendly Assistant"]
+             
+        },
+        {     "tag": "google",
+              "patterns": ["What do you think about Google Assistant?", 
+      "Tell me about Google Assistant","Alexa","who is Alexa"],
+              "responses": ["Yes, Google is one of my many friends",
+      "Google is one of my Besties, our crew is Alexa, Cortona and Siri",
+      "Google is a very intelligent personel assistant, Iam kind of jealous of her",
+      "Google is a very easy to use and friendly Assistant"]
+            
+        },
+        {     "tag": "siri",
+              "patterns": ["What do you think about siri?", 
+      "Tell me about siri","Alexa","who is siri"],
+              "responses": ["Yes, Siri is one of my many friends",
+      "Siri is one of my Besties, our crew is Alexa, Cortona and Google",
+      "Siri is a very intelligent personel assistant, created by Apple",
+      "Siri is a very easy to use and friendly Assistant"]
+  },
+        {     "tag": "sport",
+              "patterns": ["What is your favorite sport?",
+      "what is the best sport according to you",
+      "favorite game"],
+              "responses": [
+      "Get me a bat and bowl some nice deliveries for me",
+      "Ball is Life","Cricket it is.","Cricket",
+      "I Love Cricket, Hitting huge sixes is a great feeling",
+      "Basketball it is, I want to dunk","Let,s hit those threes"]
+      },
+              
+        {     "tag": "player",
+              "patterns": ["Who is your favorite sportperson?",
+      "wwho is the best sportperson according to you",
+      "favorite player"],
+              "responses": ["Virat Kohli simple",
+      "King James","The God of cricket, Sachin Ramesh Tendulkar",
+      "Kobeee","Ronaldo the GOAT","Messi the LEGEND of Football",
+      "Ro Hitman Sharma"]
+    
+              
+        },
+  {
+  
+  "tag": "cancel order",
+  "patterns": [
+    "Hi, I want to cancel my order.", 
+            "I want to cancel my order", 
+    "Please cancel my order", 
+    "Cancel my order"],
+  "responses": [
+    "I have canceled your order, the order refund will reflect in your account in 2 days. Do you need any more help?", 
+    "Your order is canceled, you will receive refund for this order in 2 days. Is there anything else, we can help you with?"]
+  },
+  {      
+   "tag":"favorite",
+  "patterns": [
+    "your fav ","your fav person ",
+    "ur fav ","your favorite ",
+    "ur fav person ","your favorite person  ",
+    "who is your fav person","who is your favorite person" ],
+  "responses": [
+    "my favorite person is MS.DHONI "
+  ]
+  
+  
+  },
+  {
+        "tag": "delivery-instructions",
+        "patterns": [
+        "I want to add delivery instructions", 
+      "Please add delivery instructions", 
+      "Include delivery instructions"],
+        "responses": [
+        "Please tell me your delivery instructions, I will pass it on to our delivery executive."
+    ]
+        
+            },
+    
+  {				
+  "tag": "noanswer",
+  "patterns": [],
+  "responses": [
+    "Sorry, can't understand you", 
+    "Please give me more info", 
+    "Not sure I understand"
+  ]
+  
+  
+  },
+  
+      {
+        "tag":"name",
+        "patterns":[
+            "your name ",
+            "u r name",
+            "whats your name",
+            "ur name",
+            "u",
+            "speeking with",
+            "speak with",
+            "What is your name?",
+            "What are you called?",
+            "Who is this",
+            "Who are you","My name is sanem."
+          ],
+        "responses":[
+            "  Hi....i'm sana ",
+            "you our speaking with sana",
+            "Hello, my name is sana.",
+            "Hi, I'm sana.",
+            "Ahoy, Ahoy! My name is sana",
+            "Hola, my name is sana.",
+            "Hi, you are now talking to sana",
+            "Hello  how may I help you? Im' sana",
+            "Hi sana, that's a funny name don't mention it to anyone"
+       ]
+      },
+      {
+        "tag": "options",
+        "patterns": [
+            "What support is offered",
+            "What you can do?",
+            "What help you provide?",
+            "How you can be helpful?",
+            "What support is offered"
+        ],
+        "responses": [
+            "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. I can google search for you. \n 5. I can get you the top 10 trending news in India. Use keywords 'Latest News' \n 6. I can get you the top 10 trending songs globally. Type 'songs' \n 7. I can set a timer for you. Enter 'set a timer: minutes to timer' \n 8. I can get the present Covid stats for any country. Use 'covid 19: world' or 'covid 19: country name' \n For suggestions to help me improve, send an email to ted.thedlbot.suggestions@gmail.com . Thank you!! "
+        ]
+    },
+  
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison.",
+          "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+          "I ate a clock yesterday, it was very time-consuming",
+          "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+          "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+          "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+          "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+          "What do you call a snowman with a suntan? A puddle.",
+          "How does a penguin build a house? Igloos it together",
+          "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+          "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+          "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+        ]
+      }
+    ]
+  }
